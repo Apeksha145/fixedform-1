@@ -1,0 +1,48 @@
+.bg-footer{background-color:#434242;font-size:10px;}
+body{position:relative;}
+/*======css for fixed form======*/
+@media only screen and (min-width:320px) and (max-width:991px){
+.frm3{
+    position: fixed;
+    background-color:transparent;
+    z-index: 1;
+    bottom:0;width:100%;padding:18px;left:0;
+}
+.field1,.field2,.field4,.formheading{display:none;}
+.mn{
+	background-color:rgba(0,0,0,.4);
+    cursor:pointer;
+    height:100%;
+	position:fixed;
+	display:none;
+    text-align:center;
+    top:0;
+    left:0;
+   width: 100%; z-index:1;
+  height: 100%;  overflow: auto;
+}
+.popupCloseButton {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display:none;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right:8px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.bg-footer{font-size:8px;}
+.mediastyl img{margin:2px 0;}
+}
+@media only screen and (min-width:992px) and (max-width:2560px){
+	.main1{padding:24px 0}
+	.popupCloseButton{visibility:hidden;}
+	.bg-footer{font-size:13px;}
+}

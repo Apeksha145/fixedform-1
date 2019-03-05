@@ -1,0 +1,172 @@
+@font-face {
+font-family: 'Futura Md BT Medium';
+font-style: normal;
+font-weight: normal;
+src: local('../fonts/Futura Md BT Medium'), url('../fonts/futura_medium_bt-webfont.woff') format('woff');
+}
+
+body{font-family: 'calibri', sans-serif;}
+.font2{font-family:'Futura Md BT Medium';}
+p, .panel-body{font-size:16px;}
+a{transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease}
+.btn:hover, .btn:focus, .btn:active, a:hover, a:focus{outline:none;text-decoration:none;}
+.no-m{margin:0;}
+.no-p{padding:0;}
+
+select.form-control:focus, input.form-control:focus{box-shadow:none;-webkit-box-shadow:none;border-color:#007db4;}
+
+.btn-red{background: #d81515; /* Old browsers */
+background: -moz-linear-gradient(top, #d81515 0%, #d23226 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #d81515 0%,#d23226 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #d81515 0%,#d23226 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d81515', endColorstr='#d23226',GradientType=0 );border:none;color:#fff}
+.btn-red:hover{background: #b20002; /* Old browsers */
+background: -moz-linear-gradient(top, #b20002 0%, #d81515 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #b20002 0%,#d81515 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #b20002 0%,#d81515 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b20002', endColorstr='#d81515',GradientType=0 );color:#fff;border:none}
+
+.btn-blue{background: #d81515; /* Old browsers */
+background: -moz-linear-gradient(top, #00b9ed 0%, #1778b1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #00b9ed 0%,#1778b1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #00b9ed 0%,#1778b1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b9ed', endColorstr='#1778b1',GradientType=0 );border:none;color:#fff;}
+.btn-blue:hover{background: #1778b1;}
+
+
+header .top-bar{padding:10px 0;}
+header .top-bar h2{font-size:20px;margin:0;font-weight:bold;}
+header .top-bar h1{font-size:2em;color:#d23226;font-weight:bold;margin:0}
+header .top-bar .call-us{text-align: right;}
+header .top-bar i{font-size:82%;transform:rotate(10deg);-webkit-transform:rotate(10deg);-moz-transform:rotate(10deg);}
+
+header .slider{background-image:url(../img/Banner_Image.png);background-size:cover;height:100%;display:block;padding:80px 0 50px;}
+header .slider .info{padding:30px 0 10px;text-shadow:1px 1px 10px rgba(0, 0, 0, 0.2)}
+header .slider .info h3{color:#fff;font-size:2.5em;line-height:1.5em}
+header .honest-price-challange{position:absolute;width:50%;left:-200px;bottom: 0}
+
+.contact-form{background:#fff;padding:20px;border-radius:5px;box-shadow:0 0 15px rgba(0, 0, 0, 0.2)}
+.contact-form .form-title{font-weight:bold;margin-bottom:20px;font-size:20px;}
+.contact-form .save-icon{position:absolute;width: 30%;right: 9px;top: -7px;}
+.featured{padding:20px 0;}
+.featured h2{text-transform:uppercase;color:#1778b1;font-size:2em;text-align:center;}
+.f-tabs{width:90%;margin:0 auto;}
+.f-tabs .panel{border:0;box-shadow:none;-webkit-box-shadow:none}
+.panel-group .panel-heading+.panel-collapse>.panel-body{border:none;}
+.panel-group .panel+.panel{margin:0;}
+.panel-group .panel-heading{padding:0;}
+.f-tabs .panel-group{margin-bottom:0}
+.f-tabs h4{font-weight:bold;padding:10px;}
+.f-tabs ul{padding-left:20px;margin:0}
+/*.f-tabs li{float: left;width:50%}*/
+.f-tabs li{float: left;margin:0 15px;}
+
+.bg-grey{background:#f5f5f5;padding-bottom:20px;}
+.blue-title{color:#1778b1;font-size:2em;margin:50px 0 20px;text-transform:uppercase;}
+.offers .description{font-size:1.3em;padding:10px 0;}
+
+.why{padding:50px 0}
+.why .title, .how .title, .priceless .title{font-size:2em;color:purple;text-align: center;text-transform:uppercase;}
+.why .item{margin:40px 0;height:90px;}
+.why .item img{width:70px;}
+.why .item .content h3{margin:0 0 5px;font-size:16px;text-transform:uppercase;font-weight:bold;}
+.why .left-items .item img{float: right;display:block;}
+.why .left-items .content{text-align:right;display:table;}
+.why .left-items .item:first-child, .why .left-items .item:nth-child(3){margin-right:-40px}
+
+.why .right-items .item img{float:left;display:block;}
+.why .right-items .content{text-align:left;display:table;}
+.why .right-items .item:first-child, .why .right-items .item:nth-child(3){margin-left:-40px}
+
+.benefits .box{text-align: center;margin:10px 0;}
+.benefits .box img{width:25%;margin:0 auto}
+.benefits .box .content h4{margin-top:0;text-transform:uppercase;font-weight:bold;}
+
+.how{text-align: center;padding:50px 0;}
+.how img{width:30%;margin:0 auto}
+.how h5{font-weight:bold;text-transform:uppercase;font-size:1.5em}
+
+.priceless{padding:50px 0;}
+.priceless .description{padding-top:20px;font-size:1.3em;}
+
+footer{background:#222;padding:5px 0;color:#fff;line-height:35px;}
+footer .social{text-align: right;margin:0;}
+footer .social li a{height:35px;width:35px;text-align: center;line-height:35px;color:#fff;font-size:20px;display:block;}
+footer .social li a:hover{text-shadow:0 0 8px #fff}
+
+.scroll-up{bottom:7px;position:fixed;right:20px;z-index:99;display:none}
+.scroll-up a{background:#007db4;border-radius:2px;color:#fff;display:block;font-size:20px;height:40px;line-height:40px;opacity:.6;text-align:center;width:40px}
+.scroll-up a:hover{opacity:1}
+
+@media all and (max-width:1024px){
+}
+@media all and (max-width:992px){
+	.container{width:98%}
+	.why .item .content h3{font-size:15px;}
+	.why .item .content p{line-height:1em}
+	header .honest-price-challange{left: -150px;bottom: -50px;}
+}
+@media all and (max-width:767px){
+	.why .left-items .item:first-child, .why .left-items .item:nth-child(3), .why .right-items .item:first-child, .why .right-items .item:nth-child(3){margin-right:0;margin-left:0;}
+
+}
+@media all and (max-width:640px){
+	p, .panel-body{font-size:15px;}
+	/*a.logo img{max}*/
+	header .top-bar h1{font-size:1.5em}
+	header .slider{padding:50px 0;}
+	header .slider .info h3{font-size:1.8em}
+	header .honest-price-challange{left:-160px}
+	.contact-form{padding:10px}
+	.contact-form .form-title{margin:10px 0}
+	.contact-form .save-icon{right:11px;top:-5px;}
+	.offers img, .priceless img{max-width:80%;margin:30px auto 0;}
+	.offers, .benefits{padding:10px 0;}
+	.blue-title{margin:0;font-size:1.2em}
+	.offers .description, .priceless .description{font-size:1em}
+	.why{padding:20px;}
+	.how h5{font-size:1.3em}
+	.why .title, .how .title, .priceless .title{font-size:1.5em}
+	footer, footer .social{text-align:center;}
+	.why p, .benefits p{display:none}
+	.why .left-items .item img, .why .right-items .item img{float:none;margin:0 auto;}
+	.why .item{margin:5px 0;height:100px;width:100%;text-align: center;padding:0 5px}
+	.why .left-items .content, .why .right-items .content{text-align:center;width:100%}
+}
+@media all and (max-width:600px){
+	.container{width:100%;}
+	.xs-fw{width:100%}
+	header .honest-price-challange{left:8px;bottom:115px;;width:30%;}
+	header .top-bar{padding-bottom:0}
+	header .top-bar .col-xs-6{width:100%}
+	header a.logo img{max-width:300px;margin:0 auto;}
+	header .top-bar .call-us{text-align:right;margin:10px 0 0;background:#007db4;color:#fff;padding:10px}
+	header .top-bar h1{color:#fff;}
+	header .slider{padding:0 0 80px;margin-bottom:280px}
+	header .slider .info{padding:10px 0;text-align: center;}
+	header .slider .info h3{font-size:1.5em}
+	header .contact-form{position:absolute;display:table;width:92%;top:20px;}
+	.contact-form .save-icon {right: -8px;top: -10px;}
+	.blue-title,.featured h2, .why .title, .how .title, .priceless .title{font-size:1.25em;text-align: center;margin:10px 0;}
+	.why, .how, .priceless{padding:20px 0}
+	.how h5{font-size:1.25em}	
+	.f-tabs{width:100%}
+	.benefits .box img{width:35%}
+	.benefits .box, .why .item{margin:0;height:100px}
+	.panel-body{padding:10px}
+	.how img{width:100%}
+}
+@media all and (max-width:480px){
+	.contact-form .save-icon{right:-5px;top:-6px;}
+	.why .item img{width:50px;}
+	.offers img, .priceless img{width:20%;margin:0 auto;}
+	.offers div[class*=col-], .priceless div[class*=col-]{width:100%;}
+	header .contact-form{top:10px;}
+	header .slider{margin-bottom:250px}
+	.why .item .content h3{font-weight:600}
+	.benefits .box, .why .item{height:120px}
+	.how h5{font-size:1em}
+}
+@media all and (max-width:340px){
+	header .honest-price-challange{bottom:160px;}
+}
