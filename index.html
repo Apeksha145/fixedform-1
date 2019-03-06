@@ -8,6 +8,39 @@
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<title>HINDUSTAN WELLNESS 3</title>
+		<script>
+		$(window).load(function () {
+			$(".field3").click(function(){
+			   $('.field1').show();
+			   $('.field2').show();
+			   $(".popupCloseButton").show();
+			   $(".mn").show();
+			   $("form").css("marginTop", "0");
+			   $(".frm3").css("backgroundColor", "transparent");
+			}); 
+			$(".popupCloseButton").click(function(){
+			   $('.mn').hide(); 
+			  $('.field1').hide();
+			   $('.field2').hide();
+			   $('.popupCloseButton').hide();
+			   $(".frm3").css("backgroundColor", "rgba(0,0,0,.4)");
+			}); 
+		});
+		$( window ).resize( function() {
+		  if( $( window ).width() > 992) {
+			  $('.field1').show();
+			   $('.field2').show();
+			    $(".frm3").css("backgroundColor", "transparent");
+		  }
+		  else{
+			$('.field1').hide();
+			$('.field2').hide();
+			$('.popupCloseButton').hide();
+			$(".mn").hide();
+			$(".frm3").css("backgroundColor", "rgba(0,0,0,.4)");
+		  }
+		});
+	</script>
 	</head>
 	<body>
 	<!--Header Start here-->
@@ -158,37 +191,5 @@
 		</div>
 	<!--/footer section-->
 	</body>
-	<script>
-		$(window).load(function () {
-			$(".field3").click(function(){
-			   $('.field1').show();
-			   $('.field2').show();
-			   $(".popupCloseButton").show();
-			   $(".mn").show();
-			   $("form").css("marginTop", "0");
-			   $(".frm3").css("backgroundColor", "transparent");
-			}); 
-			$(".popupCloseButton").click(function(){
-			   $('.mn').hide(); 
-			  $('.field1').hide();
-			   $('.field2').hide();
-			   $('.popupCloseButton').hide();
-			   $(".frm3").css("backgroundColor", "rgba(0,0,0,.4)");
-			}); 
-		});
-		$( window ).resize( function() {
-		  if( $( window ).width() > 992) {
-			  $('.field1').show();
-			   $('.field2').show();
-			    $(".frm3").css("backgroundColor", "transparent");
-		  }
-		  else{
-			$('.field1').hide();
-			$('.field2').hide();
-			$('.popupCloseButton').hide();
-			$(".mn").hide();
-			$(".frm3").css("backgroundColor", "rgba(0,0,0,.4)");
-		  }
-		});
-	</script>
+	
 </html>
