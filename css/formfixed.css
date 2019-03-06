@@ -674,7 +674,7 @@ p{font-size:15px;}
     position: fixed;
     background-color:rgba(0,0,0,.4);
     z-index: 1;
-    bottom:0;
+    bottom:295px;
 	width:100%;
 	padding:18px 37px;
 	left:0;
